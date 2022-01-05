@@ -4,3 +4,6 @@
 [submodule "roles/sudo"]
 	path = roles/sudo
 	url = https://github.com/kevincoakley/ansible-role-sudo.git
+[submodule "roles/packages"]
+	path = roles/packages
+	url = https://github.com/kevincoakley/ansible-role-package.git
