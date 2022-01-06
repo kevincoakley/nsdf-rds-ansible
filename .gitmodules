@@ -10,3 +10,6 @@
 [submodule "roles/sysctl"]
 	path = roles/sysctl
 	url = https://github.com/robertdebock/ansible-role-sysctl.git
+[submodule "roles/wireguard"]
+	path = roles/wireguard
+	url = https://github.com/githubixx/ansible-role-wireguard.git
