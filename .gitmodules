@@ -7,3 +7,6 @@
 [submodule "roles/packages"]
 	path = roles/packages
 	url = https://github.com/kevincoakley/ansible-role-package.git
+[submodule "roles/sysctl"]
+	path = roles/sysctl
+	url = https://github.com/robertdebock/ansible-role-sysctl.git
