@@ -1,5 +1,9 @@
 ---
 extends: default
+# Don't run yamllint on roles developed by 3rd parties
+ignore: |
+  /roles/sysctl/
+  /roles/wireguard/
 rules:
   line-length: disable
   truthy:
