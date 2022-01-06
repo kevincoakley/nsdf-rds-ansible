@@ -1,0 +1,11 @@
+---
+wireguard_address: 192.168.4.1/24
+wireguard_dns: "8.8.8.8"
+wireguard_postup:
+  - iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o ens3 -j MASQUERADE
+wireguard_postdown:
+  - iptables -D FORWARD -i %i -j ACCEPT; iptables -t nat -D POSTROUTING -o ens3 -j MASQUERADE
+wireguard_unmanaged_peers:
+  kcoakley:
+    public_key: CM9tfjKOkiLDxpReokVu+lHShWiZXhqrLPm45noCHUE=
+    allowed_ips: 192.168.4.2/32, 10.128.139.0/24

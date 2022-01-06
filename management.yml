@@ -1,0 +1,7 @@
+---
+- hosts: management
+
+  roles:
+    - packages
+    - sysctl
+    - wireguard
