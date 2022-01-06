@@ -1,0 +1,7 @@
+---
+# Don't run ansible-lint on roles developed by 3rd parties
+exclude_paths:
+  - roles/sysctl/
+  - roles/wireguard/
+skip_list:
+  - yaml
