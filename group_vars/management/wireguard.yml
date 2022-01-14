@@ -9,3 +9,6 @@ wireguard_unmanaged_peers:
   kcoakley:
     public_key: CM9tfjKOkiLDxpReokVu+lHShWiZXhqrLPm45noCHUE=
     allowed_ips: 192.168.4.2/32, 10.128.139.0/24
+  Dbsaba:
+    public_key: esGNo3MhCH2uU35gmSaf2BEhs5J2y8Rbtqcg/P2DHF0=
+    allowed_ips: 192.168.4.3/32, 10.128.139.0/24
