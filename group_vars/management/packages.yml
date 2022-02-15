@@ -1,7 +1,19 @@
 ---
+apt_key:
+  - url: https://download.docker.com/linux/ubuntu/gpg
+apt_repository:
+  - repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable
 package:
   - name: ansible=2.9.6+dfsg-1
   - name: ansible-lint
   - name: net-tools
   - name: resolvconf
   - name: yamllint
+  # Packages for Docker
+  - name: ca-certificates
+  - name: curl
+  - name: gnupg
+  - name: lsb-release
+  - name: docker-ce
+  - name: docker-ce-cli
+  - name: containerd.io
