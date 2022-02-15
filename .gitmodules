@@ -19,3 +19,6 @@
 [submodule "roles/docker"]
 	path = roles/docker
 	url = https://github.com/kevincoakley/ansible-role-docker.git
+[submodule "roles/node-exporter"]
+	path = roles/node-exporter
+	url = https://github.com/kevincoakley/ansible-role-prometheus-node-exporter.git
