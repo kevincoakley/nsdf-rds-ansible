@@ -1,0 +1,22 @@
+---
+parted:
+  - device: /dev/vdb
+    number: 1
+    label: gpt
+    state: present
+lvg:
+  - vg: vg_prometheus
+    pvs: /dev/vdb1
+lvol:
+  - vg: vg_prometheus
+    lv: lv_prometheus
+    shrink: false
+    size: 100%FREE
+filesystem:
+  - fstype: xfs
+    dev: /dev/vg_prometheus/lv_prometheus
+mount:
+  - path: /mnt/vpn/
+    src: /dev/vg_prometheus/lv_prometheus
+    fstype: xfs
+    opts: defaults

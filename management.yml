@@ -2,6 +2,7 @@
 - hosts: management
 
   roles:
+    - disk
     - packages
     - sysctl
     - wireguard
