@@ -4,10 +4,6 @@ sudo:
     permissions:
       - command: ALL
         nopasswd: true
-  - username: wmarkuske
-    permissions:
-      - command: ALL
-        nopasswd: true
   - username: dbsaba
     permissions:
       - command: ALL

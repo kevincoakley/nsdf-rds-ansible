@@ -4,10 +4,6 @@ user_list:
     comment: "Kevin Coakley"
     shell: /bin/bash
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJFfv0gF6eiiO45DurnhLDqKFDjXpRj84aA3ptAjXhlr6p/U/388jhoJkyGlmFY+ndssYt1Z1jZoaUgZT5iNm9rX9mxxVUDKQlIslmYIJ5ObjVU8/ctv4RgtTdAdUWzPM4/g1eTrpj39gpxEL69Cm8gzDiOveEVS8gd1Ek/+Jye4L4gF/FXe+2lfOyUOnlTNo4I6pMQ17gM4X8xAga9TBVKxMQexzn1Mj/tUqtfh7657vz/R/yhKMMWjaBZqRtKW8CN3+0iXrbfisI7cWzN9ROL7/e5QeTHJdB7wGmx9ZVpkbfBWb+9X9vriJVZCENqPjftJVCcS//5M7br/x3M76p Generated-by-Nova"
-  - name: wmarkuske
-    comment: "Willy Markuske"
-    shell: /bin/bash
-    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCmGKGsDTRb5J6i5ZT5GX8+mF6Jjeuc6PlDxIYKzy+LMCMk2HPXqhJ09MHv/4lyyXegXUBWMgBozxquuyvd/Ir0jnch2z7zWjdcUXUbpCoWBfc/6cP5JVXcmbCXs5v+84I8IE5InylyUDoUivBAppxNnONxaXpmQoxGVzjUCEU6RPWAWOntPuHowLkoAlWBGReuIFkwCi+dJO/q4fL5M/dKm8cV0KaacOFGRIaIV/OHoyTOc2rJnm1oC/yp3EfgJkxJnlf6iQHxy3/IGZoM65pR8cqQzinJVzFRQoJt3cMmATq1U7pKa75Ec3kLoGgnt1vDVuEaKe09a/0yo5bXtiV"
   - name: dbsaba
     comment: "Danny Saba"
     shell: /bin/bash
