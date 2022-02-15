@@ -16,7 +16,7 @@ filesystem:
   - fstype: xfs
     dev: /dev/vg_prometheus/lv_prometheus
 mount:
-  - path: /mnt/vpn/
+  - path: /mnt/prometheus/
     src: /dev/vg_prometheus/lv_prometheus
     fstype: xfs
     opts: defaults
