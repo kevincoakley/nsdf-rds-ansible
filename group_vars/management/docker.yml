@@ -1,0 +1,12 @@
+---
+container_run_as_service: true
+docker_containers:
+  - name: prometheus
+    image: prom/prometheus:v2.33.3
+    expose:
+      - "9090"
+    ports:
+      - "9090:9090"
+    volumes:
+      - "/mnt/prometheus/data:/prometheus"
+      - "/mnt/prometheus/etc/prometheus.yml:/etc/prometheus/prometheus.yml"

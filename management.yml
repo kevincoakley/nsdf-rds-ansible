@@ -4,5 +4,6 @@
   roles:
     - disk
     - packages
+    - docker
     - sysctl
     - wireguard
