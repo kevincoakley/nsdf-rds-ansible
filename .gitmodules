@@ -13,3 +13,6 @@
 [submodule "roles/wireguard"]
 	path = roles/wireguard
 	url = https://github.com/githubixx/ansible-role-wireguard.git
+[submodule "roles/disk"]
+	path = roles/disk
+	url = https://github.com/kevincoakley/ansible-role-disk.git
