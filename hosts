@@ -7,6 +7,8 @@ ansible_python_interpreter=/usr/bin/python3
 [all]
 nsdf-rds-mgmt ansible_host=10.128.139.158
 rds-xrootd ansible_host=10.128.139.211
+rds-origin-01 ansible_host=10.128.139.195 ansible_user=centos
+rds-cache-01 ansible_host=10.128.139.202 ansible_user=centos
 
 [management]
 nsdf-rds-mgmt
