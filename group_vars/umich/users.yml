@@ -1,0 +1,10 @@
+---
+user_list:
+  - name: kcoakley
+    comment: "Kevin Coakley"
+    shell: /bin/bash
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJFfv0gF6eiiO45DurnhLDqKFDjXpRj84aA3ptAjXhlr6p/U/388jhoJkyGlmFY+ndssYt1Z1jZoaUgZT5iNm9rX9mxxVUDKQlIslmYIJ5ObjVU8/ctv4RgtTdAdUWzPM4/g1eTrpj39gpxEL69Cm8gzDiOveEVS8gd1Ek/+Jye4L4gF/FXe+2lfOyUOnlTNo4I6pMQ17gM4X8xAga9TBVKxMQexzn1Mj/tUqtfh7657vz/R/yhKMMWjaBZqRtKW8CN3+0iXrbfisI7cWzN9ROL7/e5QeTHJdB7wGmx9ZVpkbfBWb+9X9vriJVZCENqPjftJVCcS//5M7br/x3M76p Generated-by-Nova"
+  - name: nautilus
+    comment: "Nautilus"
+    shell: /bin/bash
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9rW4dgDzAMWvvwH9iHyRDkKh8smTM+Ui83ZLO+lqhoNvkYF656XCYZCB0GK+fwkqWPPcZDTwur3Ji8T4qjaw0OhxIZBbErDpIv/AObvOVHiOpJzHMzE5rklf3dsbdCiatZ9b28TTNkow8Rz5ohaTdVmMqHqyDm/lKYyZ7ESDFg1wmDKOKBqETw5joKOb794medCadwvUkmzBDMGydYao6er2oEaxYn9V5fDo2inyYc1cW/RFAi/2PUs3fGwhOyms84eEJhEecrfDZ5uXz/3XPd8NU05CJdynv8R2o8O/jRSxQCADHcwAuQIEBwChAW2E3ZlogeDHHORrzsWvmx2Ij dimm@dimmnb"

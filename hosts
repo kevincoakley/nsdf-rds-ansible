@@ -13,3 +13,6 @@ rds-nsdf-xrootd ansible_host=10.128.139.226
 
 [management]
 nsdf-rds-mgmt
+
+[umich]
+mdf-poc ansible_host=mdf-poc.aglt2.org

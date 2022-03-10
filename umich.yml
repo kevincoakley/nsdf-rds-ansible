@@ -1,0 +1,7 @@
+---
+- hosts:
+    - umich
+
+  roles:
+    - users
+    - sudo

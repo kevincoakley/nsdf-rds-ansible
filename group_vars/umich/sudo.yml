@@ -1,0 +1,10 @@
+---
+sudo:
+  - username: kcoakley
+    permissions:
+      - command: ALL
+        nopasswd: true
+  - username: nautilus
+    permissions:
+      - command: ALL
+        nopasswd: true
