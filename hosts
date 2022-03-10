@@ -9,6 +9,7 @@ nsdf-rds-mgmt ansible_host=10.128.139.158
 rds-xrootd ansible_host=10.128.139.211
 rds-origin-01 ansible_host=10.128.139.195
 rds-cache-01 ansible_host=10.128.139.202
+rds-nsdf-xrootd ansible_host=10.128.139.226
 
 [management]
 nsdf-rds-mgmt
