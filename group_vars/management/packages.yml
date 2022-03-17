@@ -8,6 +8,7 @@ package:
   - name: ansible-lint
   - name: net-tools
   - name: resolvconf
+  - name: voms-clients-java
   - name: yamllint
   # Packages for Docker
   - name: ca-certificates
